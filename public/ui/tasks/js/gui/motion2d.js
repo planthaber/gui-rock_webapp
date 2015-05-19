@@ -27,7 +27,6 @@ function Motion2d(url, id, imageprefix){
 	this.addMotion2DControl = function (){
 		var target = document.getElementById(this.id);
 		//target.innerHTML = document.getElementById('Motion2DControl').innerHTML;
-		console.log(this.imageprefix)
 		target.innerHTML = getMotion2DHTML(this.id,this.imageprefix);
 	}
 	
